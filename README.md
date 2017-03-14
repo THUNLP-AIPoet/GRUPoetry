@@ -17,3 +17,5 @@ You can put your training data (mainly the vocabulary) , and the model file, e.g
 
 ## 3. Other Blocks ##
 
+Other Blocks described in our paper, such as CPB and WPB, can be easily got by changing the training data.
+
