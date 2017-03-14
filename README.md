@@ -2,11 +2,12 @@
 Chinese Classical Poetry Generation with Gated Unit RNN. The implementation details of this project please see <http://arxiv.org/abs/1604.01537>
 
 ----------------------------------
-###1. Basic Model ###
+
+## 1. Basic Model ##
 
 We built our poetry generator with GroundHog, more details of the Gated Unit RNN model please refer to <https://github.com/lisa-groundhog/GroundHog>
 
-###2. Setting ###
+## 2. Setting ##
 
 All needed source codes are in the directory GroundHogAttention. We did a few changes on the source codes, thus they are not totally same as the original GroundHog.
 
