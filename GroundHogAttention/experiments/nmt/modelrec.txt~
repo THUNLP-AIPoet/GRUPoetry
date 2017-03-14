@@ -1,0 +1,8 @@
+export THEANO_FLAGS='floatX=float32,on_unused_input=warn'
+
+python sample.py --beam-search --state search_state.pkl encdec_model.npz
+
+
+python generateOrderOne.py --state encdec_state.pkl encdec_model.npz --genmode 0
+
+python generateOrderTwo.py --state1 encdec_state.pkl --state2 encdec2_state.pkl --model1 encdec_model.npz --model2 encdec2_model.npz --genmode 1
